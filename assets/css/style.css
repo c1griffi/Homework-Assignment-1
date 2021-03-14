@@ -153,7 +153,7 @@ online-reputation-management, social-media-marketing divison classes (text) */
 
 /* Add a maximum height to the search-engine-optimization, 
 online-reputation-management, social-media-marketing images*/
-.search-engine-optimization .online-reputation-management .social-media-marketing img {
+.search-engine-optimization img .online-reputation-management img .social-media-marketing img {
     max-height: 200px;
 }
 

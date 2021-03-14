@@ -1,13 +1,17 @@
+/* Establishing universal styling for entire web page.  Adding box-sizing, padding, margin. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Adds a back-ground color to the body element */
 body {
     background-color: #d9dcd6;
 }
 
+
+/* Adding padding, font styling, background-color and font color to header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,19 @@ body {
     color: #ffffff;
 }
 
+/* Styling the the font size and display for the h1 header tag within the header section (title of page)*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Adding a font color to the 'seo' container class within the h1 header (title of page)*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+
+/* Aligning the header division class with padding, margin, float, font and font size */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +40,32 @@ body {
     font-size: 20px;
 }
 
+/* Clarifiying the style of the unordered list within the header*/
 .header div ul {
     list-style-type: none;
 }
 
+/* Clarifiying the margin and display of the unordered list items */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/* Setting font color and text decoration for links (a) */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+
+/* Declaring font size for paragraphs (p) */
 p {
     font-size: 16px;
 }
 
+
+/* Declaring image size, margin and positions for hero division class */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +75,30 @@ p {
     background-position: center;
 }
 
+
+/* Declaring float and right-hand margin for float-left division class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+
+/* Declaring foat and left-hand margin for float-right division class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+
+/* Declaring width, display style and left-hand margin of content division class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/* Defining margin, padding, where floating elements should align relative to text, the width/height, font and background color of the benefits division class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,41 +110,56 @@ p {
     background-color: #2589bd;
 }
 
+
+/* Defines margin and font color of benefit-lead division class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Add a margin a font color to benefit-brand division class*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Add a margin a font color to benefit-cost division class*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
+/* Add a margin and text alignment to benefit-LEAD division class header */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Add a margin and text alignment to benefit-BRAND division class*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+
+/* Add a margin a text alignment to benefit-COST division class*/
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+
+/* Add a display style, margin, and max width to benefit-LEAD division class image (img) */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* Add a display style, margin and max-width to the benefit-BRAND divsion class image (img)*/
 
 .benefit-brand img {
     display: block;
@@ -128,11 +167,16 @@ p {
     max-width: 150px;
 }
 
+/* Add a display style, margin and max-width to the benefit-COST divsion class image (img)*/
+
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* Add a margin, padding, height, and font styling to search-engine-optimization divison class (text) */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -143,6 +187,9 @@ p {
     color: #ffffff;
 }
 
+
+/* Add a margin, padding, height, and font styling to online-reputation-management divison class (text) */
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +199,8 @@ p {
     color: #ffffff;
 }
 
+
+/* Add a margin, padding, height, and font styling to social-media-marketing divison class (text) */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +210,45 @@ p {
     color: #ffffff;
 }
 
+
+/* Add a maximum height to the search-engine-optimization image*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+
+/* Add a maximum height to the online-reputation-management image*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+
+/* Add a maximum height to the social-media-marketing image*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+
+/* Add a margin and font size to the search-engine-optimization header*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+
+/* Add a margin and font size to the online-reputation-management header*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Add a margin and font size to the social-media-marketing header*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Adds padding, alignment for floating elements, font styling and text alignment for footer division class */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +256,7 @@ p {
     text-align: center;
 }
 
+/* Adds a font size to the header for the footer division class */
 .footer h2 {
     font-size: 20px;
 }

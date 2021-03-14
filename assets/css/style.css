@@ -98,7 +98,8 @@ p {
 }
 
 
-/* Defining margin, padding, where floating elements should align relative to text, the width/height, font and background color of the benefits division class */
+/* Defining margin, padding, where floating elements should align relative to text, 
+the width/height, font and background color of the benefits division class */
 .benefits {
     margin-right: 20px;
     padding: 20px;

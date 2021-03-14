@@ -2,13 +2,19 @@
 Our first homework assignment for the UCSD Coding Bootcamp (due March 13th, 2021)
 
 
+URL for final page:
+
+c1griffi.github.io/Homework-Assignment-1
+
 Fixes:
 
 1) Fixed the broken <img></img> tag issue
 
 2) Consolidated css sheet
 
-3) Began having errors regarding the final image (social-media-marking.jpg).  For some reason it loads directly from my computer into my web browser (chrome).  The html seems okay.  But I have no idea why GitHub is not processing the image correctly.  Tried to compress the image to no avail.  But it seems like the rest of the index.html and style.css are working together fine.  All links are working and all other images load correctly.
+3) Began having errors regarding the final image (social-media-marking.jpg).  For some reason it loads directly from my computer into my web browser (chrome).  The html seems okay.  But I have no idea why GitHub is not processing the image correctly.  Tried to compress the image to no avail.  But it seems like the rest of the index.html and style.css are working together fine.  All links are working and all other images load correctly. 
+
+Created an issue with a screenshot of the error I experienced.
 
 
 
